@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kontakta IRONFORM för frågor om personlig träning och våra tjänster.">
+    <title>Kontakt | IRONFORM</title>
+    <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="site-header">
+        <a href="index.html" class="site-logo">IRONFORM</a>
+
+        <!-- Main Navigation -->
+        <nav class="main-navigation" aria-label="Huvudnavigation">
+            <button class="menu-toggle" type="button"
+                aria-expanded="false" aria-controls="primary-menu"
+                aria-label="Öppna menyn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul id="primary-menu">
+                <li><a href="index.html">Hem</a></li>
+                <li><a href="about.html">Om oss</a></li>
+                <li><a href="services.html">Tjänster</a></li>
+                <li><a href="news.html">Nyheter</a></li>
+                <li><a href="contact.html" aria-current="page">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section class="page-intro">
+            <h1>Kontakta oss</h1>
+            <p>Har du frågor eller vill komma igång med personlig träning? Vi hjälper dig gärna.</p>
+        </section>
+
+        <!-- Contact Information -->
+        <section class="contact-information">
+            <h2>Kontaktuppgifter</h2>
+            <p>E-post: info@ironform.se</p>
+            <p>Telefon: 070-123 45 67</p>
+            <p>Adress: Träningsgatan 10, 252 20 Helsingborg</p>
+        </section>
+
+        <!-- Contact Form -->
+        <section class="contact-form-section">
+            <h2>Skicka en förfrågan</h2>
+
+            <form class="contact-form" action="#" method="post">
+
+                <div class="form-group">
+                    <label for="name">Namn</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">E-post</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Ämne</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Meddelande</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+                </div>
+
+                <button type="submit" class="button">Skicka förfrågan</button>
+
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+    <p>&copy; 2026 IRONFORM. Alla rättigheter förbehållna.</p>
+    <a href="ai-documentation.html">AI-dokumentation</a>
+</footer>
+
+</body>
+</html>
