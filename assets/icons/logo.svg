@@ -1,0 +1,19 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 60">
+    <!-- Barbell symbol -->
+    <g fill="none" stroke="#C6A15B" stroke-width="5" stroke-linecap="round">
+        <path d="M8 30 H52"/>
+        <path d="M15 17 V43"/>
+        <path d="M23 12 V48"/>
+        <path d="M45 17 V43"/>
+        <path d="M37 12 V48"/>
+    </g>
+
+    <!-- Brand name -->
+    <text x="65" y="39"
+          font-family="Arial, Helvetica, sans-serif"
+          font-size="29"
+          font-weight="800"
+          letter-spacing="1"
+          fill="#FFFFFF">IRONFORM</text>
+</svg>

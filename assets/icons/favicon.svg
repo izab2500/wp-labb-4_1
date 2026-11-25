@@ -1,0 +1,9 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+    <!-- Background -->
+    <rect width="64" height="64" rx="10" fill="#111111"/>
+
+    <!-- IRONFORM monogram -->
+    <path d="M17 16 H47 V23 H36 V48 H28 V23 H17 Z"
+          fill="#C6A15B"/>
+</svg>
